@@ -1,0 +1,32 @@
+// 1. Partie HTML (3 boutons avec 3 identifiants)
+// 2. Sélectionnez les boutons
+// 3. Au clic de l'utilisateur sur le bouton "Mettre de l'eau dans la casserole"
+    a. Vérifier qu'on est bien à la première étape
+    b. Si oui, on affiche dans la console "Je mets de l'eau dans la casserole" et je valide l'étape 1
+    c. Si non, on affiche "Euh l'eau est déjà dans la casserole..."
+// 4. Au clic de l'utilisateur sur le bouton "Chauffer l'eau de la casserole"
+    a. Vérifier qu'on est bien à la seconde étape
+    b. Si oui, on affiche "Je chauffe l'eau" et je valide l'étape 2
+    c. Si non, si on est encore au début, on affiche "Bah il y a pas d'eau dans la casserole !"
+    d. Si non, si on l'étape 2 est déjà validé, on affiche "C'est déjà chaud"
+// 5. Au clic de l'utilisateur sur le bouton "Mettre les pâtes"
+    a. Vérifier qu'on est bien à la troixième étape
+    b. Si oui, on affiche "Je rajoute les pâtes", "C'est cuit, bon appétit !" et je valide l'étape 3
+    c. Si non, si on n'est pas l'étape 2, on affiche "Pas encore prêt pour rajouter les pâtes"
+
+// À FAIRE PLUS TARD, AFFICHER LES TEXTES DANS LA PAGE
+
+let lenomdelavariable = "Bonjour";
+console.log(lenomdelavariable);
+
+lenomdelavariable = "Hello";
+console.log(lenomdelavariable);
+
+let monBouton = document.querySelector("#monBouton");
+console.log(monBouton);
+
+function clicSurMonBouton ()  { 
+    let nom = prompt("Ton prénom : ")
+    console.log(nom);
+    monBouton.textContent = "Bonjour" + nom;
+}
