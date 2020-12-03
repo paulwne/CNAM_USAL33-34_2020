@@ -1,0 +1,41 @@
+body {
+    margin: 2px;
+    background-color: blueviolet;
+    color: red
+   }
+   p {
+      font-size: 20 px;
+   }
+
+   .titre {
+       color: green
+    }  
+
+    #exemple{
+        color: pink
+    }
+
+    p,h1, .titre {
+        background-color: royalblue
+    }
+
+
+
+    p span {
+        color: red;
+      }
+      
+      #intro span {
+        color: red;
+      }
+      
+      #intro > span {
+        color: red;
+      }
+
+
+
+
+
+
+      
