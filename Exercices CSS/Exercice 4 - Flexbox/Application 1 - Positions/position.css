@@ -1,0 +1,27 @@
+.number-2 .box2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.number-3 .box2 {
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.number-4 .box2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.number-5 {
+    height: 300px;
+    overflow-y: scroll;
+}
+.number-5 .box2 {
+    position: sticky;
+    top: 100px;
+}
